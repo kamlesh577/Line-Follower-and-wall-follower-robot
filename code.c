@@ -1,6 +1,7 @@
 //Define Pins
 #include <Servo.h>          //Servo motor library. This is standard library
 #include <NewPing.h>        //Ultrasonic sensor function library. You must install this library
+#include <ping.h>
 
 int ENA = 3; //Enable Pin of the Right Motor (must be PWM)
 int IN1 = 1; //Control Pin
